@@ -3,5 +3,7 @@
 ## Copy的项目
 [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 ## 运行
-clean install -Dmaven.test.skip=true
-java -jar pseudo-neteasecloudmusic-api.jar --server.port=9090
+```shell
+$ mvn clean install -Dmaven.test.skip=true
+$ java -jar pseudo-neteasecloudmusic-api.jar --server.port=9090
+```
